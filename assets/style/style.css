@@ -1,0 +1,440 @@
+body {
+    font-family: 'Proxima Nova', sans-serif;
+    font-family: 'El Messiri', sans-serif;
+    background-color: #162831;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 112px;
+}
+
+
+
+
+/* HEADER */
+
+header {
+    margin: 30px 0px 50px 0px;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px #fff solid;
+    padding-bottom: 30px;
+}
+
+nav a {
+    font-family: 'Proxima Nova', sans-serif;
+    color: #fff;
+    margin-right: 30px;
+    margin-left: 20px;
+    text-decoration: none;
+
+    transition: color .3s ease;
+}
+
+nav a:hover {
+    color: #018ABE;
+}
+
+nav a:last-of-type {
+    margin-right: 0;
+}
+
+.button-header {
+    font-family: 'Proxima Nova', sans-serif;
+    background-color: #018ABE;
+    padding: 7px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #fff;
+
+    transition: all .2s ease;
+}
+
+.button-header:hover {
+    background-color: #fff;
+    color: #018ABE;
+}
+
+
+
+
+
+
+/* MAIN */
+
+.main-inner {
+    background-image: url(../images/ferst.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    border-radius: 10px;
+    margin-bottom: 150px;
+
+    text-align: center;
+}
+
+
+
+.main-inner h1 {
+    padding-top: 206px;
+    
+    font-size: 64px;
+    font-weight: bold;
+
+    }
+
+
+
+/* SEANS */
+
+.seans {
+    padding-bottom: 150px;
+}
+
+.seans-tite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 100px;
+}
+
+.seans-tite img {
+    width: 48px;
+    height: 44px;
+}
+
+.seans-tite p {
+    font-size: 42px;
+    font-weight: 800;
+    color: #fff;
+
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.seans-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seans-item { 
+    
+    width: 416px;
+    height: 258px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 12px;
+
+    position: relative;
+}
+
+.seans-item p {
+    font-size: 24px;
+    font-weight: 800;
+
+    position: absolute;
+    left: 40px;
+    bottom: 30px;
+}
+
+.seans-item .left p {
+    left: 50px;
+    bottom: 50px;
+}
+
+.left {
+    background-image: url(../images/photo.jpg);
+    height: 540px;
+   color: #fff
+}
+.komp {
+    background-image: url(../images/komp.jpg);
+    color: #fff
+}
+.seti {
+    background-image: url(../images/Seti.png);
+    color: #fff
+}
+
+.serv {
+    background-image: url(../images/serv.png);
+    color: #fff
+}
+
+.modern {
+    background-image: url(../images/modern.png);
+    color: #000000
+}
+
+
+.seans-right {
+    display: flex;
+}
+
+.seans-right div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* Comments */
+
+.comments {
+    padding-bottom: 150px;
+}
+
+
+.slider {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.slider-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.slider-img.active {
+  opacity: 1;
+}
+
+.slider img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.slider .prev {
+  left: 10px;
+}
+
+.slider .next {
+  right: 10px;
+}
+
+
+
+/* Footer */
+
+
+.footer {
+    padding-bottom: 30px;
+}
+
+.footer-content {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.footer-map iframe {
+    border-radius: 10px;
+    margin-right: 48px;
+}
+
+
+.footer-blocks {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-block {
+    background-color: #018ABE;
+    padding: 3px 4px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    color: #fff;
+
+    width: 392px;
+    height: 290px;
+}
+
+.footer-block h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.footer-block div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.footer-block div img {
+    margin-right: 20px;
+}
+
+.footer-block div:last-of-type {
+    margin-bottom: 30px;
+}
+
+.footer-button {
+    font-family: 'Proxima Nova', sans-serif;
+    color: #018ABE;
+    background-color: #fff;
+    padding: 9px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+
+    text-decoration: none;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Proxima Nova', sans-serif;
+
+    border-top: 1px #fff solid;
+    padding-top: 30px;
+
+}
+
+.button-header-smoll img:last-of-type {
+  width:  5%;
+  height: 5%;
+  position: relative;
+  left: 450px;
+}
+
+
+
+/* NEWS */
+
+.news-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-bottom: 120px;
+}
+
+.news-item {
+    text-decoration: none;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 30px 35px;
+    text-align: center;
+
+    width: 40%;
+    height: 40%;
+    margin: 50px;
+
+    transition: transform .3s ease;
+}
+
+
+.AOP7 {
+    background-image: url(../images/pseven.png);
+}
+
+.notebook {
+    background-image: url(../images/noteeejpg.jpg);
+}
+
+.conder {
+    background-image: url(../images/condeeer.png);
+}
+
+.ASUS {
+    background-image: url(../images/marshhh.jpg);
+}
+
+.ddd {
+    background-image: url(../images/Printerrr.jpg);
+}
+
+.WIFI {
+    background-image: url(../images/Wi_Fi.jpg);
+}
+
+.news-item:hover {
+    transform: scale(1.05);
+}
+
+.news-date {
+    padding: 6px 12px;
+    color: #000;
+    background-color: #018ABE;
+    border-radius: 5px;
+
+    margin-bottom: 139px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+
+    display: inline-block;
+}
+
+.news-item h2 {
+    font-size: 21px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* O NAS */
+
+.onas {
+    padding-bottom: 150px;
+}
+.onas-text {
+    color: #fff;
+    text-align: center;
+}
+
+.onas-text p {   
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+.onas-napravlen {
+ padding-bottom: 150px;
+}
+
+.onas-napravlen {
+    background-image: url(../images/napravlenpn.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    height: 1000px;
+    border-radius: 10px;
+    margin-bottom: 150px;
+}
+
+

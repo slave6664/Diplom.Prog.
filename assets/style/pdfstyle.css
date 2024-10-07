@@ -1,0 +1,49 @@
+/* PDF ФАЙЛЫ С ФИЛЬТРОМ */
+.kaban {
+    padding-bottom: 330px;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.filterDiv {
+  float: center;
+  background-color: #008080;
+  color: #ffffff;
+  width: 400px;
+  line-height: 30px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.chasti {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Стиль кнопок */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn .active {
+  background-color: #666;
+  color: white;
+}
